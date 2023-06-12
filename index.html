@@ -11,25 +11,28 @@
 
 <body>
 
-    <h1>Convertidor de moneda</h1>
+    <header class="header"> Convertidor de moneda </header>
 
-    <label>Ingrese la cantidad de dolares USD$:</label>
+    <h3> Conversión de dólares, colones a bitcoin  </h3>
+
+    <label>Ingrese la cantidad de dólares USD$:</label>
     <input type="number" id="dolares">
     <br>
     <button type="button" class="btnConvertir" onclick="convertirColones()">Convertir a colones</button>
     <br>
-    <label>La cantidad de dólares en colones salvadoreños es SVC₡:</label>
+    <label>La cantidad de dólares a colones salvadoreños es SVC₡:</label>
     <label for="" id="resulColon" class="resulColon">-</label>
     <br>
     <button type="button" class="btnConvertir"  onclick="convertirBTN()">Convertir a Bitcoins</button>
     <br>
-    <label>La cantidad de dólares en Bitcoin es BTC฿:</label>
+    <label>La cantidad de dólares a Bitcoin es BTC฿:</label>
     <label id="resultBTN" class="resulColon">-</label>
     <br>
     <label>El valor actual de Bitcoin es:</label>
     <label id="valorBTN" class="resulColon">-</label>
     <br>
+    
 </body>
-<script src="JS/convertirABitcoin.js"></script>
-<script src="JS/convertidorAColon.js"></script>
+<script src="js/convertirABitcoin.js"></script>
+<script src="js/convertidorAColon.js"></script>
 </html>
